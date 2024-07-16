@@ -65,8 +65,11 @@ public struct OtpView:View {
             RoundedRectangle(cornerRadius: 6, style: .continuous)
                 .stroke(status ? activeIndicatorColor : inactiveIndicatorColor)
                 .animation(.easeInOut(duration: 0.2), value: status)
-
-    
+            
+            
+        }
+        .padding(.leading,5)
+        .padding(.trailing,5)
     }
 }
 
