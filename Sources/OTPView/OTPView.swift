@@ -67,7 +67,8 @@ public struct OtpView:View {
                 .animation(.easeInOut(duration: 0.2), value: status)
 
         }
-        .padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 20))
+        .padding(.leading, 20)
+        .padding(.trailing,20)
     }
 }
 
