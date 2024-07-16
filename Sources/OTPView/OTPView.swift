@@ -66,9 +66,7 @@ public struct OtpView:View {
                 .stroke(status ? activeIndicatorColor : inactiveIndicatorColor)
                 .animation(.easeInOut(duration: 0.2), value: status)
 
-        }
-        .padding(.leading, 20)
-        .padding(.trailing,20)
+    
     }
 }
 
